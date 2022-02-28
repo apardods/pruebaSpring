@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de inscripción</title>
+	<meta charset="utf-8">
+</head>
+<body style="background-color:#a3ffa3bd">
+    <h1>Iberdrola</h1>
+    <img src="https://www.iberdrola.com/o/iberdrola-corporativo-theme/images/comunes/logo_cabecera_stiky.png">
+	<h3>Bienvenido al formulario de inscripcion para el plan de ahorro de Iberdrola</h3>
+    <form action="/signup" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Correo electrónico:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="phone">Teléfono:</label>
+        <input type="text" id="phone" name="phone"><br><br>
+        <label for="plan">Plan que le interesa:</label>
+        <select name="select">
+        <option value="value1" selected="">Plan de ahorro dos tramos</option>
+        <option value="value2">Plan de ahorro tres tramos</option>
+        <option value="value3">Plan elige 8 horas</option>
+        </select><br><br>
+        <label for="zip">Código postal:</label>
+        <input type="text" id="zip" name="zip"><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+	
+</body>
+</html>
